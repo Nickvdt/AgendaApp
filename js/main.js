@@ -1,0 +1,1 @@
+const nickZijnAgenda = new AgendaApp();

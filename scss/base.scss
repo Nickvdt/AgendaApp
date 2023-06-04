@@ -1,0 +1,10 @@
+@use "../scss/abstracts/mixins";
+
+body{
+    background: linear-gradient(to bottom right, #5C469C, 70%, #D4ADFC);
+    min-height: 100vh;
+    @include mixins.flexCenter;
+    padding: 4rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
